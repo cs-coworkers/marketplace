@@ -1,0 +1,13 @@
+{
+  "name": "coworkers",
+  "owner": {
+    "name": "Coworkers.Global"
+  },
+  "plugins": [
+    {
+      "name": "chet",
+      "source": "./plugins/chet",
+      "description": "Chet — managed Claude-expertise agent. Reads current Claude/Anthropic facts (model lineup, model choice, connectors, pricing) live via the gated Chet connector, routing by topic; answers craft questions from bundled references; degrades only to a bundled dated floor. Installs into your own Cowork; access is entitlement-gated. v1.1.0."
+    }
+  ]
+}

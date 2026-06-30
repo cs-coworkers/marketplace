@@ -1,0 +1,10 @@
+{
+  "name": "chet",
+  "version": "1.1.0",
+  "description": "Chet — managed Claude-expertise loader. Reads current Claude/Anthropic facts (model lineup, model choice, connectors, pricing) live via the gated Chet Model-A connector (fetch_brain), routing by topic; answers craft questions from bundled references, and degrades only to a bundled dated floor. Client-facing; installed into the client's own Cowork.",
+  "owner": "cody",
+  "status": "experimental",
+  "author": {
+    "name": "Coworkers.Global"
+  }
+}
