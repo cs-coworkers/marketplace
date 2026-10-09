@@ -8,6 +8,12 @@
       "name": "chet",
       "source": "./plugins/chet",
       "description": "Chet — managed Claude-expertise agent. Reads current Claude/Anthropic facts (model lineup, model choice, connectors, pricing) live via the gated Chet connector, routing by topic; answers craft questions from bundled references; degrades only to a bundled dated floor. Installs into your own Cowork; access is entitlement-gated. v1.1.0."
+    },
+    {
+      "name": "linkedin-connect-staging",
+      "source": "./plugins/linkedin-connect-staging",
+      "description": "Stages LinkedIn connection invitations for a list of people: finds each profile, skips existing connections, drafts a short note, and opens one Chrome tab per person stopped at the final Send. You click every Send. Needs Claude in Chrome. v1.0.0.",
+      "version": "1.0.0"
     }
   ]
 }

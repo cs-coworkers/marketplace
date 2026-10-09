@@ -5,6 +5,7 @@ Public marketplace for **managed AI agents** from Coworkers.Global. Each agent i
 ## Available now
 
 - **chet** — a managed Claude expert. Answers questions about Claude and Anthropic: which model to use, pricing, limits, connectors, prompting, and agent design. It reads current model facts live (and shows the date they were last verified) rather than answering from memory, and tells you plainly when it isn't sure.
+- **linkedin-connect-staging** — a skill that prepares LinkedIn connection invitations for a list of people and leaves one Chrome tab per person at the final Send. You click every Send. Needs Claude in Chrome; no connector or seat.
 
 ## Install
 
