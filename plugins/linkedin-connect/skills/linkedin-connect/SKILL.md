@@ -8,7 +8,7 @@ metadata:
   status: "active"
   updated: "2026-10-09"
   scope: "universal"
-  version: "1.0.1"
+  version: "1.0.2"
   layer: "org"
   executor: "hybrid"
   surface: "claude-account-skill"

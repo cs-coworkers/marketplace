@@ -30,9 +30,12 @@ Ten people take about two minutes of your time.
 1. **Claude** with skills turned on.
    - Free, Pro or Max: Settings → Capabilities → turn on "Code execution and file creation".
    - Team or Enterprise: your organization's owner turns on skills under Organization settings → Plugins & skills.
-2. **Install the skill.** Zip the `linkedin-connect` folder. In Claude go to **Customize → Skills**
-   (https://claude.ai/customize/skills), click **+**, then **+ Create skill → Upload a skill**, and choose the zip.
-   - No skills? Paste `SKILL.md` and this guide into a Project's instructions instead. It works the same way.
+2. **Install the plugin.** In Claude go to **Customize → Plugins** (https://claude.ai/customize/plugins), choose
+   **Add marketplace**, enter `cs-coworkers/marketplace`, then install **linkedin-connect**. New versions arrive as
+   updates in the same place.
+   - Or upload it as a skill: zip the `linkedin-connect` folder, then **Customize → Skills** → **+** →
+     **+ Create skill → Upload a skill**, and choose the zip. This route doesn't get updates.
+   - Neither available? Paste `SKILL.md` and this guide into a Project's instructions. It works the same way.
 3. **Claude in Chrome.** Install the extension (https://claude.ai/chrome) in the Chrome where you're signed in to
    LinkedIn, and sign in to the same Claude account. Allow it on linkedin.com.
 4. **Optional:** connect your email (Gmail or Outlook) if you want Claude to build lists from your mail.

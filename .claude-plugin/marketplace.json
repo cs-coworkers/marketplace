@@ -12,8 +12,8 @@
     {
       "name": "linkedin-connect",
       "source": "./plugins/linkedin-connect",
-      "description": "Stages LinkedIn connection invitations for a list of people: finds each profile, skips existing connections, drafts a short note, and opens one Chrome tab per person stopped at the final Send. You click every Send. Needs Claude in Chrome. v1.0.1.",
-      "version": "1.0.1"
+      "description": "Stages LinkedIn connection invitations for a list of people: finds each profile, skips existing connections, drafts a short note, and opens one Chrome tab per person stopped at the final Send. You click every Send. Needs Claude in Chrome. v1.0.2.",
+      "version": "1.0.2"
     }
   ]
 }

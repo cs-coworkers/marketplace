@@ -1,6 +1,6 @@
 {
   "name": "linkedin-connect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Stages LinkedIn connection invitations for a list of people: finds each profile, skips existing connections, drafts a short personal note, and opens one Chrome tab per person stopped at the final Send (or Accept). You click every Send. Needs Claude in Chrome.",
   "author": {
     "name": "Coworkers.Global"

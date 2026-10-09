@@ -1,5 +1,9 @@
 # linkedin-connect — changelog
 
+## v1.0.2 — 2026-10-09
+Guide, Setup step 2: install from the `cs-coworkers/marketplace` plugin marketplace is now the main route (it gets
+updates); the zip upload and the paste-into-a-Project routes stay as fallbacks. No behavior change.
+
 ## v1.0.1 — 2026-10-09
 Renamed from `linkedin-connect-staging` (Charlie, 2026-10-09: "staging" read as a test build). Plugin, skill
 folder, `name`, `id` and titles changed; behavior unchanged. Already installed the old name? Uninstall
