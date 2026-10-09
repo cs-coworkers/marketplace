@@ -1,5 +1,5 @@
 ---
-id: linkedin-connect-staging-guide
+id: linkedin-connect-guide
 type: doc
 owner: clarice
 status: active
@@ -7,7 +7,7 @@ updated: 2026-10-09
 scope: universal
 ---
 
-# LinkedIn connect staging: the guide
+# LinkedIn connect: the guide
 
 For the person using it and for Claude. Read once before the first sitting.
 
@@ -30,7 +30,7 @@ Ten people take about two minutes of your time.
 1. **Claude** with skills turned on.
    - Free, Pro or Max: Settings → Capabilities → turn on "Code execution and file creation".
    - Team or Enterprise: your organization's owner turns on skills under Organization settings → Plugins & skills.
-2. **Install the skill.** Zip the `linkedin-connect-staging` folder. In Claude go to **Customize → Skills**
+2. **Install the skill.** Zip the `linkedin-connect` folder. In Claude go to **Customize → Skills**
    (https://claude.ai/customize/skills), click **+**, then **+ Create skill → Upload a skill**, and choose the zip.
    - No skills? Paste `SKILL.md` and this guide into a Project's instructions instead. It works the same way.
 3. **Claude in Chrome.** Install the extension (https://claude.ai/chrome) in the Chrome where you're signed in to

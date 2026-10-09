@@ -1,14 +1,14 @@
 ---
-name: linkedin-connect-staging
+name: linkedin-connect
 description: "Stages LinkedIn connection invitations for a list of people: finds each person's profile, skips anyone already connected, drafts a short personal note, and opens one browser tab per person stopped at the final Send (or Accept) click. The human clicks every Send. Use when someone says 'connect with these people on LinkedIn', 'send LinkedIn invites to this list', 'stage my LinkedIn connections', or hands over names, emails or profile links to connect with."
 metadata:
-  id: "linkedin-connect-staging"
+  id: "linkedin-connect"
   type: "procedure"
   owner: "clarice"
   status: "active"
   updated: "2026-10-09"
   scope: "universal"
-  version: "1.0"
+  version: "1.0.1"
   layer: "org"
   executor: "hybrid"
   surface: "claude-account-skill"
@@ -22,7 +22,7 @@ metadata:
   output-check: "one staged tab per approved person + the tracker rows for this sitting"
 ---
 
-# LinkedIn connect staging: invitations ready to send, one click each
+# LinkedIn connect: invitations ready to send, one click each
 
 You prepare. The person clicks. LinkedIn's User Agreement bans software that adds contacts automatically, so you
 never click **Send**, **Send without a note**, **Accept**, **Withdraw** or **Ignore**. Every invitation goes out by
