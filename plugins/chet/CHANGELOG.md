@@ -1,5 +1,8 @@
 # chet
 
+## 2.0.1 (2026-11-11)
+- Skills only: the bundled `.mcp.json` is removed (PRD rule 4 Q1). The Claude desktop app did not show 2.0.0 on a test machine. Add the Start connector (https://start.coworkers.global/mcp) as a custom connector.
+
 ## 2.0.0 (2026-11-11)
 - New Chet for Start: skills `chet`, `start-setup`, `start-health`; content and access come from the Start connector at https://start.coworkers.global/mcp (`.mcp.json` generated from `connectors/start.json`).
 - Replaces the v1.1.0 fetch_brain design. Shipped straight to the one Start server (Charlie 2026-11-11: no staging build).

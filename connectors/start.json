@@ -1,10 +1,8 @@
 {
-  "_note": "The one place the Start connector URL lives (PRD 5.2, D3/D12). One environment since 2026-11-11 (Charlie: drop the staging server). Run `node scripts/gen-mcp.mjs` after any change; it writes the same .mcp.json into every agent plugin listed below.",
+  "_note": "The one place the Start connector URL lives (PRD 5.2, D3/D12). No plugin bundles it since chet 2.0.1 (PRD rule 4 Q1: skill-only plugin + custom connector; bundled OAuth failed on fresh identities 2026-08-31). Members add the URL as a custom connector.",
   "server": "start",
   "urls": {
     "production": "https://start.coworkers.global/mcp"
   },
-  "plugins": {
-    "chet": "production"
-  }
+  "plugins": {}
 }
