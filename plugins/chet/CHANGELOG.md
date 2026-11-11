@@ -1,5 +1,8 @@
 # chet
 
+## 2.0.2 (2026-11-11)
+- Bundled Start connector restored (`.mcp.json` → https://start.coworkers.global/mcp), on Charlie's instruction to try another route.
+
 ## 2.0.1 (2026-11-11)
 - Skills only: the bundled `.mcp.json` is removed (PRD rule 4 Q1). The Claude desktop app did not show 2.0.0 on a test machine. Add the Start connector (https://start.coworkers.global/mcp) as a custom connector.
 
