@@ -1,4 +1,8 @@
-# Chet loader — changelog
+# chet
+
+## 2.0.0 (2026-11-11)
+- New Chet for Start: skills `chet`, `start-setup`, `start-health`; content and access come from the Start connector at https://start.coworkers.global/mcp (`.mcp.json` generated from `connectors/start.json`).
+- Replaces the v1.1.0 fetch_brain design. Shipped straight to the one Start server (Charlie 2026-11-11: no staging build).
 
 ## v1.1.0 — 2026-06-28 (Doctrine depth slice 1, Block 4)
 Topic routing across the three new perishable brain files; `fetch_brain` reads stay exclusive

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "start": {
-      "type": "http",
-      "url": "https://start-connector-staging.coworkers-global.workers.dev/mcp"
-    }
-  }
-}

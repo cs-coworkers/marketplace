@@ -1,9 +1,7 @@
 {
   "name": "chet",
-  "version": "1.1.0",
-  "description": "Chet — managed Claude-expertise loader. Reads current Claude/Anthropic facts (model lineup, model choice, connectors, pricing) live via the gated Chet Model-A connector (fetch_brain), routing by topic; answers craft questions from bundled references, and degrades only to a bundled dated floor. Client-facing; installed into the client's own Cowork.",
-  "owner": "cody",
-  "status": "experimental",
+  "version": "2.0.0",
+  "description": "Chet sets up Start (your company's AI workspace) in your Google Drive or a local folder, grades its health, and answers questions about your AI host. Content comes from the Start connector (Google sign-in).",
   "author": {
     "name": "Coworkers.Global"
   }

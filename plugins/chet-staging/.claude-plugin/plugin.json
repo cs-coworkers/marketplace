@@ -1,6 +1,0 @@
-{
-  "name": "chet-staging",
-  "version": "2.0.0",
-  "description": "STAGING build of Chet 2.0 for internal testing. Chet sets up Start (your company's AI workspace) in your Google Drive or a local folder, grades its health, and answers questions about your AI host. Content comes from the Start connector (Google sign-in).",
-  "author": { "name": "Coworkers.Global" }
-}
