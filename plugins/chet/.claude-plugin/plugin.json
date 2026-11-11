@@ -1,6 +1,6 @@
 {
   "name": "chet",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Chet sets up Start (your company's AI workspace) in your Google Drive or a local folder, grades its health, and answers questions about your AI host. Content comes from the Start connector (Google sign-in).",
   "author": {
     "name": "Coworkers.Global"
