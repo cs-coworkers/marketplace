@@ -16,11 +16,18 @@
       "source": "./plugins/linkedin-connect",
       "description": "Stages LinkedIn connection invitations for a list of people: finds each profile, skips existing connections, drafts a short note, and opens one Chrome tab per person stopped at the final Send. You click every Send. Needs Claude in Chrome. v1.0.2.",
       "version": "1.0.2"
+    },
+    {
+      "name": "esam",
+      "source": "./plugins/esam",
+      "description": "Sam, your managed marketing agent: plans a dated week of social posts, drafts blog posts into your Start folder, and checks copy against your brand. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Sam once before first use. Preview. v0.1.2.",
+      "version": "0.1.2",
+      "displayName": "Sam"
     }
   ],
   "description": "Chet, from Coworkers.Global: sets up Start, your company's AI workspace, and onboards your other agents.",
   "renames": {
     "chet": "echet",
-    "sam": null
+    "sam": "esam"
   }
 }
