@@ -1,0 +1,8 @@
+{
+  "name": "sam",
+  "version": "0.1.0",
+  "description": "Sam is your managed marketing agent from Coworkers.Global: plans a week of posts, drafts blog posts into your Start folder, and checks copy against your brand rules. Works from your Start folder; access comes from the Start connector (Google sign-in). Preview.",
+  "author": {
+    "name": "Coworkers.Global"
+  }
+}
