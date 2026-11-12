@@ -1,5 +1,9 @@
 # chet
 
+## 2.0.3 (2026-11-12)
+- Chet onboards agents, tests them and manages problems (PRD 5.4, 5.5): three new routes in the `chet` skill that call `start_onboard_plan`, `start_onboard_step`, `start_onboard_verify`, `start_diagnose` and `start_report_issue`. The knowledge stays on the Start connector.
+- Hard limits written into the skill. Approval wording: an account that Coworkers.Global has not approved is told the email it signed in with.
+
 ## 2.0.2 (2026-11-11)
 - Bundled Start connector restored (`.mcp.json` → https://start.coworkers.global/mcp), on Charlie's instruction to try another route.
 

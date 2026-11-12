@@ -17,8 +17,12 @@ opinions. Once they decide, do it without re-arguing.
    - If the tool is missing or asks for sign-in: tell the member to open this plugin's
      **Connectors** tab, click **Add** (or **Connect**) on **start**, and sign in with Google.
      Then stop.
-   - If `sam` is not in the active products: say Sam is not active on their account yet and that
-     Coworkers.Global can turn it on. Stop.
+   - If it says `approval: not approved`: tell the member the exact email it shows, and that
+     Coworkers.Global approves each person by hand (cs@coworkers.global). Stop.
+   - If `sam` is not active in the products line (for example "not onboarded yet"): say Sam
+     needs a one-time setup by Chet, and that the member starts it with "Chet, onboard Sam"
+     (Chet is free, in the same marketplace). Stop. Exception: when the member said
+     "Chet, test Sam", this is Chet's test of Sam; do the task Chet asks for.
 2. Find the member's **Start folder** (connected folder or Google Drive). Read, if present:
    `now.md`, `goals.md`, `policy/brand.md`, and any `dossiers/` file about their customers.
    If there is no Start folder, say Sam works best with one and suggest "Chet, set up Start";
