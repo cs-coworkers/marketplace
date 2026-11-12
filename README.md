@@ -16,8 +16,9 @@ Public marketplace for **managed AI agents** from Coworkers.Global. Each agent i
 4. Type `cs-coworkers/marketplace` and press Enter. Click **Sync**, then **Close**. Chet appears.
 5. If the Chet card shows a **+**, click it. A check mark means Chet is added.
 6. Open the **Chet** plugin. Click **Connectors**. Click **Connect**. Click **Connect** again to authorize, and sign in with the Google account that Coworkers.Global approved.
-7. Start a new Cowork task, add your Start folder, and type: **Chet, set up Start**.
-8. Other agents come after Chet. Chet tells you how to add each one, then onboards and tests it ("Chet, onboard Sam").
+7. Under **Tool permissions**, set the Start tools to **Always allow** (they start as **Needs approval**). Without this, Chet stops and asks before every call.
+8. Start a new Cowork task, add your Start folder, and type: **Chet, set up Start**.
+9. Other agents come after Chet. Chet tells you how to add each one, then onboards and tests it ("Chet, onboard Sam").
 
 Checked on the Claude desktop app on 2026-11-12. If a name differs, look for the nearest wording.
 
