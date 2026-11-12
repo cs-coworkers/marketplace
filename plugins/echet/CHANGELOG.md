@@ -1,5 +1,12 @@
 # chet (plugin name `echet` from 2.0.4)
 
+## 2.0.5 (2026-11-12)
+- Connect line: Cowork, not Code; Customize > Plugins > Chet > Connectors; Connect twice; set the Start tools to Always allow; or `start_diagnose` `not_connected`.
+- start-setup: storage is `local` on Cowork and Code unless the member asks for Google Drive; ask once if the Drive connector is on (no longer picks Drive just because the connector is on).
+- start-health: show the three fixes the rubric names (first three failed checks, in rubric order), not one fix for each of the 2 weakest areas.
+- New route: "load my context", "read my docs", "bring my old folder in" → `procedures/context-load/SKILL.md` in the member's Start folder.
+- `plugin_version` sent to `start_report_issue` is 2.0.5.
+
 ## 2.0.4 (2026-11-12)
 - Plugin renamed `chet` → `echet` (shown to members as Chet) so it cannot collide with older plugins named `chet` on an account and shows as a new plugin. Skills, triggers ("Chet, …") and tools are unchanged. The marketplace `renames` map carries existing installs over.
 

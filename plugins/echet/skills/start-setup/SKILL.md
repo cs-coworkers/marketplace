@@ -14,7 +14,9 @@ Run this loop. The connector holds the steps; you carry them out.
    skill and stop.
 2. Work out two things, and ask the member only if you cannot tell:
    - `host`: `claude-cowork`, `claude-code` or `claude-web` (the app you are running in).
-   - `storage`: `gdrive` (Google Drive, preferred when the Google Drive connector is on) or `local`.
+   - `storage`: `local` on `claude-cowork` and `claude-code`, unless the member asks for Google
+     Drive (`gdrive`). If the Google Drive connector is on, ask once: "Keep Start in a local folder
+     (recommended) or in Google Drive?" Never pick `gdrive` only because the connector is on.
 3. `start_setup_plan` with `host` and `storage`. Show the member the steps as a short numbered
    list with one line each. If it returns a warning (nearest path), tell the member.
 4. For each step id, in order: `start_setup_step` with `step_id`, `host`, `storage`.
