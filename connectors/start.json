@@ -1,11 +1,10 @@
 {
-  "_note": "The one place the Start connector URL lives (PRD 5.2, D3/D12). Run `node scripts/gen-mcp.mjs` after any change; it writes the same .mcp.json into every agent plugin listed below. chet bundles it again from 2.0.2 (Charlie 2026-11-11).",
+  "_note": "The one place the Start connector URL lives (PRD 5.2, D3/D12). Run `node scripts/gen-mcp.mjs` after any change; it writes the same .mcp.json into every agent plugin listed below. The plugin is named echet from 2.0.4 (member-facing name Chet). sam is delisted (Charlie 2026-11-12) and keeps its last generated .mcp.json.",
   "server": "start",
   "urls": {
     "production": "https://start.coworkers.global/mcp"
   },
   "plugins": {
-    "chet": "production",
-    "sam": "production"
+    "echet": "production"
   }
 }
