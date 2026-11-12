@@ -7,8 +7,8 @@
     {
       "name": "chet",
       "source": "./plugins/chet",
-      "description": "Chet sets up Start, your company's AI workspace, in Google Drive or a local folder, grades its health, and answers questions about your AI host. Content and access come from the Start connector (Google sign-in). v2.0.2.",
-      "version": "2.0.2"
+      "description": "Chet sets up Start, your company's AI workspace, in Google Drive or a local folder, grades its health, onboards and tests your other agents, helps when something goes wrong, and answers questions about your AI host. Content and access come from the Start connector (Google sign-in). v2.0.3.",
+      "version": "2.0.3"
     },
     {
       "name": "linkedin-connect",
@@ -19,8 +19,8 @@
     {
       "name": "sam",
       "source": "./plugins/sam",
-      "description": "Sam, your managed marketing agent: plans a dated week of social posts, drafts blog posts into your Start folder, and checks copy against your brand. Access through the Start connector (Google sign-in). Preview. v0.1.0.",
-      "version": "0.1.0"
+      "description": "Sam, your managed marketing agent: plans a dated week of social posts, drafts blog posts into your Start folder, and checks copy against your brand. Access through the Start connector (Google sign-in). Chet onboards Sam once before first use. Preview. v0.1.1.",
+      "version": "0.1.1"
     }
   ]
 }
