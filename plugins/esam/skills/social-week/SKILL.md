@@ -15,7 +15,8 @@ description: >
 3. Draft one post per day as a table: date · channel · theme · visual idea · caption · call to
    action. Mix: product, behind the scenes, customer/community, one offer, one question.
 4. Captions in the member's voice from `policy/brand.md`; facts only from their folder, otherwise
-   `[placeholder]`.
-5. Close with: what you need from them (photos, prices, hours) and one measurement tip.
+   `[placeholder]`. Run **brand-check** on the week before showing it; fix what it finds.
+5. Close with: what you need from them (photos, prices, hours) and one number to note next week
+   for each channel (for example reach and clicks), so the next plan can keep what worked.
 6. Offer to save it as `content/social/<YYYY-MM-DD>-week.md` in their Start folder. Write only
    after a yes.

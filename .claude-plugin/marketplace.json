@@ -20,8 +20,8 @@
     {
       "name": "esam",
       "source": "./plugins/esam",
-      "description": "Sam, your managed marketing agent: plans a dated week of social posts, drafts blog posts into your Start folder, and checks copy against your brand. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Sam once before first use. Preview. v0.1.2.",
-      "version": "0.1.2",
+      "description": "Sam, your managed marketing agent: plans a dated week of social posts, drafts blog posts into your Start folder, and checks copy against your brand. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Sam once before first use. Preview. v0.1.3.",
+      "version": "0.1.3",
       "displayName": "Sam"
     }
   ],
