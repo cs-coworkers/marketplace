@@ -4,8 +4,7 @@ Public marketplace for **managed AI agents** from Coworkers.Global. Each agent i
 
 ## Available now
 
-- **chet** — sets up Start (your company's AI workspace) in a folder you own, grades its health, onboards and tests your other agents, and helps when something goes wrong. Install Chet first.
-- **sam** (preview) — a marketing agent: plans a dated week of social posts, drafts blog posts into your Start folder, and checks copy against your brand. Chet onboards Sam once before first use ("Chet, onboard Sam").
+- **Chet** — sets up Start (your company's AI workspace) in a folder you own, grades its health, onboards and tests your other agents, and helps when something goes wrong. Install Chet first.
 - **linkedin-connect** — a skill that prepares LinkedIn connection invitations for a list of people and leaves one Chrome tab per person at the final Send. You click every Send. Needs Claude in Chrome; no connector.
 
 ## Install (Claude desktop app)
@@ -14,7 +13,7 @@ Public marketplace for **managed AI agents** from Coworkers.Global. Each agent i
 2. Choose **Add marketplace** (from a repository) and enter `cs-coworkers/marketplace`. Click **Sync**, then **Close**.
 3. Install **Chet**. Open its **Connectors** tab; on **start** click **Add**, then **Connect**, and sign in with the Google account that Coworkers.Global approved.
 4. In a new chat, with your Start folder added, say: **Chet, set up Start**.
-5. For each other agent: install it from the same marketplace, then say **Chet, onboard Sam** (or the agent's name).
+5. Other agents come after Chet. Chet tells you how to add each one, then onboards and tests it ("Chet, onboard Sam").
 
 Button names are as of 2026-11-12. Anthropic changes them; look for the nearest wording.
 

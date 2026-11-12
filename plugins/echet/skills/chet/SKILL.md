@@ -65,7 +65,7 @@ Check, fix, guide, verify, escalate.
    member the exact clicks for what only they can do, and wait for "done".
 4. **Verify:** run the failed check again.
 5. **Escalate** if it still fails or no runbook matches: call `start_report_issue` with the
-   `error_code`, and the `check_id`, `agent`, `host` and `plugin_version` (2.0.3) when you know
+   `error_code`, and the `check_id`, `agent`, `host` and `plugin_version` (2.0.4) when you know
    them. Send only the code when you are unsure what the detail would reveal. Tell the member a
    person at Coworkers.Global will follow up.
 

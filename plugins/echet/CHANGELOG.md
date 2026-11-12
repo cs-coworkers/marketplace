@@ -1,4 +1,7 @@
-# chet
+# chet (plugin name `echet` from 2.0.4)
+
+## 2.0.4 (2026-11-12)
+- Plugin renamed `chet` → `echet` (shown to members as Chet) so it cannot collide with older plugins named `chet` on an account and shows as a new plugin. Skills, triggers ("Chet, …") and tools are unchanged. The marketplace `renames` map carries existing installs over.
 
 ## 2.0.3 (2026-11-12)
 - Chet onboards agents, tests them and manages problems (PRD 5.4, 5.5): three new routes in the `chet` skill that call `start_onboard_plan`, `start_onboard_step`, `start_onboard_verify`, `start_diagnose` and `start_report_issue`. The knowledge stays on the Start connector.

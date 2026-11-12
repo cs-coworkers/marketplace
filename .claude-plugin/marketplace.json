@@ -5,22 +5,22 @@
   },
   "plugins": [
     {
-      "name": "chet",
-      "source": "./plugins/chet",
-      "description": "Chet sets up Start, your company's AI workspace, in Google Drive or a local folder, grades its health, onboards and tests your other agents, helps when something goes wrong, and answers questions about your AI host. Content and access come from the Start connector (Google sign-in). v2.0.3.",
-      "version": "2.0.3"
+      "name": "echet",
+      "source": "./plugins/echet",
+      "description": "Chet sets up Start, your company's AI workspace, in Google Drive or a local folder, grades its health, onboards and tests your other agents, helps when something goes wrong, and answers questions about your AI host. Content and access come from the Start connector (Google sign-in). v2.0.4.",
+      "version": "2.0.4",
+      "displayName": "Chet"
     },
     {
       "name": "linkedin-connect",
       "source": "./plugins/linkedin-connect",
       "description": "Stages LinkedIn connection invitations for a list of people: finds each profile, skips existing connections, drafts a short note, and opens one Chrome tab per person stopped at the final Send. You click every Send. Needs Claude in Chrome. v1.0.2.",
       "version": "1.0.2"
-    },
-    {
-      "name": "sam",
-      "source": "./plugins/sam",
-      "description": "Sam, your managed marketing agent: plans a dated week of social posts, drafts blog posts into your Start folder, and checks copy against your brand. Access through the Start connector (Google sign-in). Chet onboards Sam once before first use. Preview. v0.1.1.",
-      "version": "0.1.1"
     }
-  ]
+  ],
+  "description": "Chet, from Coworkers.Global: sets up Start, your company's AI workspace, and onboards your other agents.",
+  "renames": {
+    "chet": "echet",
+    "sam": null
+  }
 }
