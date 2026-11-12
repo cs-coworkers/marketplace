@@ -5,6 +5,7 @@
     "production": "https://start.coworkers.global/mcp"
   },
   "plugins": {
-    "chet": "production"
+    "chet": "production",
+    "sam": "production"
   }
 }
