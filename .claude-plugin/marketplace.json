@@ -23,6 +23,13 @@
       "description": "Sam, your managed marketing agent: plans a dated week of social posts, drafts blog posts into your Start folder, and checks copy against your brand. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Sam once before first use. Preview. v0.1.3.",
       "version": "0.1.3",
       "displayName": "Sam"
+    },
+    {
+      "name": "ekarin",
+      "source": "./plugins/ekarin",
+      "description": "Karin, your managed web-testing agent: tests your website's pages, tools and lead flow after every change, and writes what broke, where and how to reproduce it into your Start folder. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Karin once before first use. Needs a browser (Claude in Chrome). Preview. v0.1.0.",
+      "version": "0.1.0",
+      "displayName": "Karin"
     }
   ],
   "description": "Chet, from Coworkers.Global: sets up Start, your company's AI workspace, and onboards your other agents.",

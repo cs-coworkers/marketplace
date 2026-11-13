@@ -1,11 +1,12 @@
 {
-  "_note": "The one place the Start connector URL lives (PRD 5.2, D3/D12). Run `node scripts/gen-mcp.mjs` after any change; it writes the same .mcp.json into every agent plugin listed below. The plugin is named echet from 2.0.4 (member-facing name Chet). Sam is plugin esam from 0.1.2 (listed again, Charlie 2026-11-12).",
+  "_note": "The one place the Start connector URL lives (PRD 5.2, D3/D12). Run `node scripts/gen-mcp.mjs` after any change; it writes the same .mcp.json into every agent plugin listed below. The plugin is named echet from 2.0.4 (member-facing name Chet). Sam is plugin esam from 0.1.2 (listed again, Charlie 2026-11-12). Karin is plugin ekarin from 0.1.0 (2026-11-13).",
   "server": "start",
   "urls": {
     "production": "https://start.coworkers.global/mcp"
   },
   "plugins": {
     "echet": "production",
-    "esam": "production"
+    "esam": "production",
+    "ekarin": "production"
   }
 }
