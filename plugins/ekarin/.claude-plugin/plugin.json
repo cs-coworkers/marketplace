@@ -1,0 +1,9 @@
+{
+  "name": "ekarin",
+  "version": "0.1.0",
+  "description": "Karin is your managed web-testing agent from Coworkers.Global: tests your website's pages, tools and lead flow after every change, and writes what broke, where and how to reproduce it into your Start folder for your team. Works from your Start folder; access comes from the Start connector (Google sign-in). Install Chet first: Chet onboards Karin once before first use. Preview.",
+  "author": {
+    "name": "Coworkers.Global"
+  },
+  "displayName": "Karin"
+}
