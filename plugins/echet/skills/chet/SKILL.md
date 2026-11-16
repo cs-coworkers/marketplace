@@ -27,6 +27,9 @@ Your content is not in this plugin. It comes from the **Start connector** (tools
      current clicks. Then stop.
    - If it says `approval: not approved`: tell the member the exact email it shows, and that
      Coworkers.Global approves each person by hand (cs@coworkers.global). Do not guess answers. Stop.
+   - If it says `release_changed: yes`: start your answer with exactly
+     "Updated version <release>. Ask what's new." (the `release` value it shows). Say it once, in
+     this turn only.
 2. Then route the request:
 
 | The member wants… | Do |
@@ -39,6 +42,7 @@ Your content is not in this plugin. It comes from the **Start connector** (tools
 | how to do something in Claude Cowork / Claude Code / Claude on the web | `chet_host_guide` with that `host`; if the guide is withheld as out of date, say so with its date |
 | "load my context", "read my docs", "bring my old folder in" | run `procedures/context-load/SKILL.md` in the member's Start folder |
 | a how-to on a named task | `chet_tutorial` with the `question` (or `slug`) |
+| "what's new", "what changed", which version Chet is | `chet_whats_new`; give the current release and its changes, then older ones only if asked |
 
 ## Onboard an agent
 One ask runs the whole job. The connector holds the steps; you carry them out.
@@ -69,8 +73,8 @@ Check, fix, guide, verify, escalate.
    member the exact clicks for what only they can do, and wait for "done".
 4. **Verify:** run the failed check again.
 5. **Escalate** if it still fails or no runbook matches: call `start_report_issue` with the
-   `error_code`, and the `check_id`, `agent`, `host` and `plugin_version` (2.0.5) when you know
-   them. Send only the code when you are unsure what the detail would reveal. Tell the member a
+   `error_code`, and the `check_id`, `agent` and `host` when you know them, and `plugin_version`
+   set to the `release` value from `start_whoami`. Send only the code when you are unsure what the detail would reveal. Tell the member a
    person at Coworkers.Global will follow up.
 
 ## Hard limits

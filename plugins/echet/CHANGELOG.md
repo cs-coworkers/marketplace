@@ -1,5 +1,12 @@
 # chet (plugin name `echet` from 2.0.4)
 
+Member-facing notes, with the release number (`nn.nn`, plugin + served content), are in guild-content `chet/whats-new.md` (Chet's). This file is the engineering log.
+
+## 2.0.6 (2026-11-16) · release 2.06
+- `start_whoami` now returns `release`, `last_seen_release` and `release_changed` (Start connector 0.3.0). On `release_changed: yes` the skill says once "Updated version <release>. Ask what's new."
+- New route: "what's new" → `chet_whats_new` (the served changelog).
+- `plugin_version` sent to `start_report_issue` is the `release` from `start_whoami`, not a hardcoded number (chet_feedback 9).
+
 ## 2.0.5 (2026-11-12)
 - Connect line: Cowork, not Code; Customize > Plugins > Chet > Connectors; Connect twice; set the Start tools to Always allow; or `start_diagnose` `not_connected`.
 - start-setup: storage is `local` on Cowork and Code unless the member asks for Google Drive; ask once if the Drive connector is on (no longer picks Drive just because the connector is on).
