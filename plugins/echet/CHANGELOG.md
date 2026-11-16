@@ -2,6 +2,11 @@
 
 Member-facing notes, with the release number (`nn.nn`, plugin + served content), are in guild-content `chet/whats-new.md` (Chet's). This file is the engineering log.
 
+## 2.0.7 (2026-11-16) · release 2.07
+- New route and section **Route to the right agent**: "who can help with…", "which agent does…", or another agent's work → `chet_tutorial` `slug: which-agent-can-help` (the roster, served from guild-content) plus the `products` line from `start_whoami` to say which agents are active.
+- Proactive: at most one suggestion per conversation, after a health check (agent listed but not active) or when the member names a need another agent covers. Never mid-fix.
+- Hard rule: Chet never does Sam's or Karin's work; he names who does it.
+
 ## 2.0.6 (2026-11-16) · release 2.06
 - `start_whoami` now returns `release`, `last_seen_release` and `release_changed` (Start connector 0.3.0). On `release_changed: yes` the skill says once "Updated version <release>. Ask what's new."
 - New route: "what's new" → `chet_whats_new` (the served changelog).
