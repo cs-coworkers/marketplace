@@ -2,6 +2,9 @@
 
 Member-facing notes, with the release number (`nn.nn`, plugin + served content), are in guild-content `chet/whats-new.md` (Chet's). This file is the engineering log.
 
+## 2.0.8 (2026-11-16) · release unchanged (2.07)
+- From the LTCareNav install: "review our website and fill Start" routes to context-load (source C, a website); "what should I put in your project instructions" and "can't see my Start folder" route to the Cowork project tutorial. No release bump: changes to existing agents don't raise it (Charlie 18:00).
+
 ## 2.0.7 (2026-11-16) · release 2.07
 - New route and section **Route to the right agent**: "who can help with…", "which agent does…", or another agent's work → `chet_tutorial` `slug: which-agent-can-help` (the roster, served from guild-content) plus the `products` line from `start_whoami` to say which agents are active.
 - Proactive: at most one suggestion per conversation, after a health check (agent listed but not active) or when the member names a need another agent covers. Never mid-fix.
