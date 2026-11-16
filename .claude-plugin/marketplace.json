@@ -30,6 +30,13 @@
       "description": "Karin, your managed web-testing agent: tests your website's pages, tools and lead flow after every change, and writes what broke, where and how to reproduce it into your Start folder. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Karin once before first use. Needs a browser (Claude in Chrome). Preview. v0.1.0.",
       "version": "0.1.0",
       "displayName": "Karin"
+    },
+    {
+      "name": "ealex",
+      "source": "./plugins/ealex",
+      "description": "Alex, your managed startup cofounder agent: keeps your runway and default-alive date current, runs a weekly KPI and focus review, drafts your monthly investor update, synthesizes customer interviews, calls pivot or persevere on the evidence, and reads your plan or deck the way an investor will. Records live in your Start folder. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Alex once before first use. Preview. v0.1.0.",
+      "version": "0.1.0",
+      "displayName": "Alex"
     }
   ],
   "description": "Chet, from Coworkers.Global: sets up Start, your company's AI workspace, and onboards your other agents.",

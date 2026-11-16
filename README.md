@@ -6,6 +6,7 @@ Public marketplace for **managed AI agents** from Coworkers.Global. Each agent i
 
 - **Chet** — sets up Start (your company's AI workspace) in a folder you own, grades its health, onboards and tests your other agents, and helps when something goes wrong. Install Chet first.
 - **Sam** (preview) — a marketing agent: plans a dated week of social posts, drafts blog posts into your Start folder, and checks copy against your brand. Install Chet first; Chet onboards Sam once before first use ("Chet, onboard Sam").
+- **Alex** (preview) — a startup cofounder agent: keeps your runway and default-alive date current, runs a weekly review, drafts your investor update, and reads your plan or deck the way an investor will. Records stay in your Start folder. Install Chet first; Chet onboards Alex once before first use ("Chet, onboard Alex").
 - **linkedin-connect** — a skill that prepares LinkedIn connection invitations for a list of people and leaves one Chrome tab per person at the final Send. You click every Send. Needs Claude in Chrome; no connector.
 
 ## Install (Claude desktop app)
