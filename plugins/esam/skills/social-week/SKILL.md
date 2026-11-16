@@ -7,6 +7,8 @@ description: >
 
 # Social week
 
+Run Sam's access check first (step 1 of the **sam** skill); if it stops, stop here too.
+
 1. Ask, only if the Start folder doesn't say: which channels (default: the two they use most),
    and one thing they want more of this week (visits, orders, bookings, leads).
 2. Work out the coming 7 days from today's date. List any holidays, local events the member has

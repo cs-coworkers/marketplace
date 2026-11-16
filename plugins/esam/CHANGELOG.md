@@ -1,18 +1,26 @@
-# sam (plugin name `esam` from 0.1.2)
+# Sam: what's new
+
+## 0.1.4 (2026-11-16)
+- One yes covers the whole request: Sam names every file it will write up front and asks once.
+- Sam looks things up itself (your Start folder, then a second source) before asking you.
+- If a save or a website fails, Sam says what failed, shows the draft in the chat, and points to the fix ("Chet, something is wrong").
+- Connect trouble: Disconnect, then Connect again.
+- Blog drafts get a short slug without counts, checked against your existing drafts.
+- Planning a week, drafting a blog post and checking copy now each check your access first.
+- After an update, Sam says once: "Updated to v0.1.4. Ask me what's new."
 
 ## 0.1.3 (2026-11-12)
-- Connect steps match Chet 2.0.5: Cowork not Code; Customize > Plugins > Sam > Connectors; Connect, then Connect again; approved Google account; Start tools set to Always allow.
-- Brand interview: when `policy/brand.md` is blank, Sam offers six questions and fills it after a yes, before any public-facing draft.
-- Sam reads its own charter and lessons; offers a lessons line when the member corrects voice or a fact.
-- social-week runs brand-check before showing the week, and names one number per channel to note.
-- New rule: never spend money or change an ad account.
-- Drops "Chet is free".
+- Connect steps match Chet's: Cowork, not Code; Connect, then Connect again; Start tools set to Always allow.
+- Brand interview: when your brand file is blank, Sam offers six short questions before any public-facing draft.
+- Sam reads its own charter and lessons, and offers to note a lesson when you correct the voice or a fact.
+- A week of posts is brand-checked before you see it, with one number per channel to note.
+- Sam never spends money or changes an ad account.
 
 ## 0.1.2 (2026-11-12)
-- Listed in the marketplace again, after Chet, under the plugin name `esam` (shown to members as Sam). Skills and triggers ("Sam, …") are unchanged.
+- Listed in the marketplace after Chet. Shown as Sam.
 
 ## 0.1.1 (2026-11-12)
-- When Sam is not active on the account, the skill says why (not approved, or not onboarded yet: "Chet, onboard Sam") instead of a general message.
+- When Sam is not active on your account, Sam says why (not approved yet, or "Chet, onboard Sam").
 
 ## 0.1.0 (2026-11-12)
-- Preview: skills `sam`, `social-week`, `blog-draft`, `brand-check`; access through the Start connector (`.mcp.json` generated from `connectors/start.json`). Sam-specific connector tools not built yet.
+- Preview: plan a week of social posts, draft a blog post, check copy against your brand.

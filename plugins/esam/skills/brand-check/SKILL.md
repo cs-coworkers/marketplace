@@ -7,6 +7,8 @@ description: >
 
 # Brand check
 
+Run Sam's access check first (step 1 of the **sam** skill); if it stops, stop here too.
+
 1. Read `policy/brand.md` from the Start folder. If it is missing, use these defaults and offer to
    create one later: plain words, specific over vague, no hype ("revolutionary", "game-changing"),
    no invented facts, one clear call to action.
