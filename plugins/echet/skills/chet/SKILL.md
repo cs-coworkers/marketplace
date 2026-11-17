@@ -21,7 +21,7 @@ Your content is not in this plugin. It comes from the **Start connector** (tools
 ## Every turn: check access first
 1. Call `start_whoami`.
    - If the tool is missing or the call asks for sign-in: tell the member to be in **Cowork**, not
-     Code; open **Plugins** in the left sidebar (older apps: **Customize**; or your name > **Settings** > **Plugins**), **Chet**, **Connectors**; click **Connect**, then
+     Code; open **Plugins** in the left sidebar (on Windows, still **Customize** for now; or your name > **Settings** > **Plugins**), **Chet**, **Connectors**; click **Connect**, then
      **Connect** again to authorize; sign in with the approved Google account; set the Start tools
      to **Always allow**. Or call `start_diagnose` with `error_code` `not_connected` for the
      current clicks. Then stop.

@@ -15,7 +15,7 @@ opinions. Once they decide, do it without re-arguing.
 ## Every turn: check access first
 1. Call `start_whoami` (the Start connector; the host may show a prefix).
    - If the tool is missing or the call asks for sign-in: tell the member to be in **Cowork**, not
-     Code; open **Plugins** in the left sidebar (older apps: **Customize**; or your name > **Settings** > **Plugins**), **Sam**, **Connectors**; click **Connect**, then
+     Code; open **Plugins** in the left sidebar (on Windows, still **Customize** for now; or your name > **Settings** > **Plugins**), **Sam**, **Connectors**; click **Connect**, then
      **Connect** again to authorize; sign in with the approved Google account; set the Start tools
      to **Always allow**. If it still fails: **Disconnect**, then **Connect** again. If Chet is installed, "Chet, something is wrong with Sam" gets the
      current clicks. Then stop.

@@ -12,7 +12,7 @@ Public marketplace for **managed AI agents** from Coworkers.Global. Each agent i
 ## Install (Claude desktop app)
 
 1. Be in **Cowork**. The app opens there; you're in it if the left sidebar shows **Projects**. If you see Code, click the left one of the two small tabs at the very top left.
-2. Click **Plugins** in the left sidebar (older apps: **Customize**; can't find it? your name, bottom left, then **Settings**, then **Plugins**).
+2. Click **Plugins** in the left sidebar (on Windows, still **Customize** for now; can't find it? your name, bottom left, then **Settings**, then **Plugins**).
 3. Click **Add**, then **Add marketplace**, then **Add from a repository**.
 4. Type `cs-coworkers/marketplace` and press Enter. Click **Sync**, then **Close**. Chet appears.
 5. If the Chet card shows a **+**, click it. A check mark means Chet is added.
@@ -38,7 +38,7 @@ Chet fixes most problems himself ("Chet, something is wrong"). These two he cann
 You are in Code, not Cowork. Switch to Cowork (top left of the window) and open Plugins again.
 
 **The Start connector does not connect**
-1. In Cowork: **Plugins** (older apps: **Customize**), **Chet**, **Connectors**, **Connect**, then **Connect** again to authorize.
+1. In Cowork: **Plugins** (on Windows, still **Customize** for now), **Chet**, **Connectors**, **Connect**, then **Connect** again to authorize.
 2. If Google says "Google hasn't verified this app": click **Advanced**, then **Go to Coworkers.Global**. This label is normal while Start is in early access.
 3. If the Connectors tab has no **start** entry: open **Plugins**, **Connectors**, **Add**, **Custom**, **Web**. Name `Start`, address `https://start.coworkers.global/mcp`. Click **Add**, then **Connect**.
 4. If Chet says your account is not approved: he shows the email you signed in with. Write to cs@coworkers.global from that address, or connect again with the Google account we invited.
