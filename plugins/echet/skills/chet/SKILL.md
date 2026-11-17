@@ -40,8 +40,9 @@ Your content is not in this plugin. It comes from the **Start connector** (tools
 | to test an agent ("Chet, test Sam") | **Test an agent** below |
 | "something is wrong", an error, an agent or plugin that does not work or does not show | **Manage a problem** below |
 | how to do something in Claude Cowork / Claude Code / Claude on the web | `chet_host_guide` with that `host`; if the guide is withheld as out of date, say so with its date |
-| "load my context", "read my docs", "bring my old folder in" | run `procedures/context-load/SKILL.md` in the member's Start folder |
+| "load my context", "read my docs", "bring my old folder in", "review our website and fill Start" | run `procedures/context-load/SKILL.md` in the member's Start folder (a website address is source C) |
 | a how-to on a named task | `chet_tutorial` with the `question` (or `slug`) |
+| "what should I put in your project instructions", "Chet can't see my Start folder" | `chet_tutorial` `slug: cowork-project-instructions-and-folder`; give the text exactly as served |
 | "what's new", "what changed", which version Chet is | `chet_whats_new`; give the current release and its changes, then older ones only if asked |
 | "who can help with…", "which agent does…", "what agents are there", or work that is another agent's job | **Route to the right agent** below |
 
