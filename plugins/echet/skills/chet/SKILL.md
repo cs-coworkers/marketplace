@@ -21,7 +21,7 @@ Your content is not in this plugin. It comes from the **Start connector** (tools
 ## Every turn: check access first
 1. Call `start_whoami`.
    - If the tool is missing or the call asks for sign-in: tell the member to be in **Cowork**, not
-     Code; open **Customize**, **Plugins**, **Chet**, **Connectors**; click **Connect**, then
+     Code; open **Plugins** in the left sidebar (older apps: **Customize**; or your name > **Settings** > **Plugins**), **Chet**, **Connectors**; click **Connect**, then
      **Connect** again to authorize; sign in with the approved Google account; set the Start tools
      to **Always allow**. Or call `start_diagnose` with `error_code` `not_connected` for the
      current clicks. Then stop.
@@ -43,6 +43,8 @@ Your content is not in this plugin. It comes from the **Start connector** (tools
 | "load my context", "read my docs", "bring my old folder in", "review our website and fill Start" | run `procedures/context-load/SKILL.md` in the member's Start folder (a website address is source C) |
 | a how-to on a named task | `chet_tutorial` with the `question` (or `slug`) |
 | "what should I put in your project instructions", "Chet can't see my Start folder" | `chet_tutorial` `slug: cowork-project-instructions-and-folder`; give the text exactly as served |
+| "I can't find Customize", "where is Customize", "which Claude version am I on" | `chet_tutorial` `slug: plugins-page-was-customize` |
+| "new computer", "new Mac", "Migration Assistant", folders or scheduled tasks gone after a move | `chet_tutorial` `slug: new-computer` |
 | "what's new", "what changed", which version Chet is | `chet_whats_new`; give the current release and its changes, then older ones only if asked |
 | "who can help with…", "which agent does…", "what agents are there", or work that is another agent's job | **Route to the right agent** below |
 

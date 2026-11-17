@@ -8,7 +8,7 @@
       "name": "echet",
       "source": "./plugins/echet",
       "description": "Chet sets up Start, your company's AI workspace, in Google Drive or a local folder, grades its health, onboards and tests your other agents, helps when something goes wrong, answers questions about your AI host, and points you to the right agent for each job. Content and access come from the Start connector (Google sign-in). v2.0.8.",
-      "version": "2.0.8",
+      "version": "2.0.9",
       "displayName": "Chet"
     },
     {
@@ -21,21 +21,21 @@
       "name": "esam",
       "source": "./plugins/esam",
       "description": "Sam, your managed marketing agent: plans a dated week of social posts, drafts blog posts into your Start folder, and checks copy against your brand. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Sam once before first use. Preview. v0.1.4.",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "displayName": "Sam"
     },
     {
       "name": "ekarin",
       "source": "./plugins/ekarin",
       "description": "Karin, your managed web-testing agent: tests your website's pages, tools and lead flow after every change, and writes what broke, where and how to reproduce it into your Start folder. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Karin once before first use. Needs a browser (Claude in Chrome). Preview. v0.1.0.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "displayName": "Karin"
     },
     {
       "name": "ealex",
       "source": "./plugins/ealex",
       "description": "Alex, your managed startup cofounder agent: keeps your runway and default-alive date current, runs a weekly KPI and focus review, drafts your monthly investor update, synthesizes customer interviews, calls pivot or persevere on the evidence, and reads your plan or deck the way an investor will. Records live in your Start folder. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Alex once before first use. Preview. v0.1.0.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "displayName": "Alex"
     }
   ],

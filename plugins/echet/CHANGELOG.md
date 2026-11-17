@@ -2,6 +2,9 @@
 
 Member-facing notes, with the release number (`nn.nn`, plugin + served content), are in guild-content `chet/whats-new.md` (Chet's). This file is the engineering log.
 
+## 2.0.9 (2026-11-17) · release unchanged (2.07)
+- From the HireBoost install: the connect line says **Plugins** (Anthropic renamed Customize; support article 17740565). New routes: "can't find Customize" / "which Claude version" → tutorial plugins-page-was-customize; "new computer" / Migration Assistant → tutorial new-computer (guild-content).
+
 ## 2.0.8 (2026-11-16) · release unchanged (2.07)
 - From the LTCareNav install: "review our website and fill Start" routes to context-load (source C, a website); "what should I put in your project instructions" and "can't see my Start folder" route to the Cowork project tutorial. No release bump: changes to existing agents don't raise it (Charlie 18:00).
 
