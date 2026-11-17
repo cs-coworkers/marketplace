@@ -1,5 +1,8 @@
 # Sam: what's new
 
+## 0.1.5 (2026-11-17)
+- Connect line says **Plugins** in the left sidebar (on Windows, still Customize for now; or name > Settings > Plugins). Anthropic renamed Customize to Plugins (support article 17740565).
+
 ## 0.1.4 (2026-11-16)
 - One yes covers the whole request: Sam names every file it will write up front and asks once.
 - Sam looks things up itself (your Start folder, then a second source) before asking you.
