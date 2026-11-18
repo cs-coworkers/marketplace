@@ -2,6 +2,12 @@
 
 Member-facing notes, with the release number (`nn.nn`, plugin + served content), are in guild-content `chet/whats-new.md` (Chet's). This file is the engineering log.
 
+## 2.0.10 (2026-11-17) · release 2.10
+- Release bump for a new agent: Alex (ealex 0.1.0). A new agent raises the release; updates to existing agents do not (Charlie 2026-11-16 18:00).
+- **Route to the right agent** calls `chet_agents` (Start connector 0.4.0) with the member's words: the matching agent from the roster generated at release (`scripts/gen-roster.mjs`), and whether it is active, not onboarded, or not authorized for this account. Falls back to `chet_tutorial` `which-agent-can-help` when the connector is older.
+- Hard rule now names Alex's work too.
+- Renumbered from 2.0.8 / 2.08: 2.0.8 and 2.0.9 shipped as install fixes first (Charlie 2026-11-17 "2 yes").
+
 ## 2.0.9 (2026-11-17) · release unchanged (2.07)
 - From the HireBoost install: the connect line says **Plugins** (Anthropic renamed Customize; support article 17740565). New routes: "can't find Customize" / "which Claude version" → tutorial plugins-page-was-customize; "new computer" / Migration Assistant → tutorial new-computer (guild-content).
 
