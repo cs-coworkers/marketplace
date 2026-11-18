@@ -21,6 +21,8 @@ A pass with no evidence is not a pass. A page that merely loads is not a pass. I
 - **C3** · Validation messages are clear, sit next to the problem, and name what's missing · **pass when** the message is quoted.
 - **C4** · Results are reachable as the page promises (if a page says "free, no sign-up", no sign-up wall before results) · **pass when** the path to a result is recorded.
 - **C5** · The tool works with keyboard alone · **pass when** completed without a mouse.
+- **C6** · Persona answers: each question answered as the plan's persona; questions outside the persona asked or marked assumed · **pass when** the question → answer log is in the findings file.
+- **C7** · Cross-tool consistency: one persona's results agree across the tools the plan's consistency rules name · **pass when** the consistency table shows 0 outliers, or each outlier is a finding.
 
 ## D. Forms and leads
 - **D1** `Q` · Each form in the plan shows labels and accepts input at phone and desktop widths · **pass when** both widths are checked.
@@ -28,6 +30,12 @@ A pass with no evidence is not a pass. A page that merely loads is not a pass. I
 - **D3** `Q` · Submit only as the plan allows; otherwise stop before the click · **pass when** the plan rule is cited, or the stop is recorded.
 - **D4** `Q` · After an allowed submit, a confirmation shows **and** the lead lands where the plan says (back office, lead list, inbox), within the plan's time · **pass when** the arrival time is recorded. A thank-you page alone is half a pass.
 - **D5** · Test records are listed in the findings file so the team can delete them · **pass when** listed.
+
+Channels (D6 to D9 run only for journeys whose plan row lists that channel; `Q` when listed):
+- **D6** · **Email:** the email arrives in the plan's test inbox and carries the right answers or result · **pass when** arrival time, subject and the matching values are recorded (inbox not signed in: `could not test`).
+- **D7** · **PDF:** the PDF downloads, opens, and its answers and result match the screen · **pass when** the matching values are quoted from both.
+- **D8** · **Login:** the plan's test account signs in, without Karin typing a password · **pass when** the signed-in page is quoted.
+- **D9** · **Dashboard:** the dashboard shows this run's answers and result, matching the screen · **pass when** the matching values are quoted from both.
 
 ## E. Phones and browsers
 - **E1** `Q` · No sideways scrolling at 360, 390 and 430 px wide · **pass when** 0 pages overflow.
@@ -56,6 +64,7 @@ Automated checks find about half of problems. Never report a clean result as "ac
 
 ## Severity
 - **Critical:** site down; a lead, sign-up or payment flow broken; leads not arriving; a tool giving wrong answers on its main path; data exposed.
+- A channel that disagrees with the screen (email, PDF or dashboard showing different answers or a different result) is graded like a wrong answer. A consistency outlier is **High** unless the plan's known answers show which tool is wrong; then grade that tool's wrong answer.
 - **High:** a key journey broken on phones or one browser, no workaround; a main button hard to read for everyone.
 - **Medium:** a secondary feature broken, or a workaround exists.
 - **Low:** cosmetic.
