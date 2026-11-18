@@ -15,6 +15,10 @@ Items: `checklist.md` in this folder. Findings file format: `report-template.md`
 |---|---|---|
 | **quick** | After every change or round of dev; scheduled runs; one named tool | Tier 1 journeys in the plan + checklist items marked `Q` |
 | **full** | First run on a plan, before a launch, monthly, or on request | every journey in the plan + every checklist item |
+| **persona** | "Persona run", "check the quizzes agree", after tool changes | one persona (named, or each in turn) through every tool in the plan, with its channels, then the consistency check (checklist C6, C7, D6 to D9) |
+
+A persona run is long (every tool × every channel). Run one persona per chat unless the member
+asks for more; the findings file carries the rest to the next chat.
 
 ## Steps
 1. **Load the plan.** Read `coworkers/karin/test-plan.md`. None → say so, run **test-plan** first,
@@ -25,30 +29,48 @@ Items: `checklist.md` in this folder. Findings file format: `report-template.md`
 3. **Gate first.** Home page and the first step of the top journey load. If they don't, that is the
    finding: report it as the root cause and mark the rest "blocked".
 4. **Walk the journeys** in the plan, in tier order. For each step record what you did and what
-   you saw. Where the plan gives **known answers** (input → expected result), enter the input and
-   compare the result word for word or number for number; a result that appears but differs is a
+   you saw. Treat every step and every channel as an **element** and compare it with the plan's
+   expected behavior for that element. In persona mode, answer each question as the persona and
+   log question → answer. A question the persona doesn't cover: ask the member in one line, use
+   the answer, and offer to add it to the persona in the plan (write after a yes). Running
+   unattended: pick the answer closest to the profile and mark it **assumed**.
+   Where the plan gives **known answers** (input → expected result), enter the input and compare the result word for word or number for number; a result that appears but differs is a
    **fail**. Where the plan allows a submission (for example a lead with the test ZIP), submit it,
    then check where it should land (back office, lead list, inbox) only if the member is signed in
    there; record the arrival time, or "could not check: not signed in".
+   **Channels.** For each journey, check every channel the plan lists, each with its own status:
+   **screen** (result shown, quoted); **email** (arrives in the plan's test inbox, if signed in:
+   time, subject, and the answers or result it carries); **pdf** (downloads, opens, and its
+   answers and result match the screen); **login** (the test account signs in as the plan says,
+   with no password typed); **dashboard** (shows this run's answers and result, matching the
+   screen); **lead** (lands where the plan says). A mismatch between channels is a **fail**.
 5. **Work the checklist** for the mode. Status each item: `pass` + evidence, `fail` + evidence,
    `intermittent`, `could not test` + why, `stopped before submit`, or `n/a` + why.
 6. **Retry every fail once** in a fresh tab before calling it broken. Failed twice → `fail`;
    failed then passed → `intermittent`.
-7. **Grade.** Severity from `checklist.md` § Severity. Each fail gets steps to reproduce, expected
+7. **Consistency check** (persona mode, and full mode when the plan has consistency rules).
+   Build a table with one row per tool and one column per persona. Each cell holds the result
+   that the plan's rules compare. Apply each rule; a tool that disagrees with the rest is an
+   **outlier** finding: name the tool, the persona, the answers given, and both results. Never
+   judge which result is right unless the plan's known answers say so; report the disagreement.
+8. **Grade.** Severity from `checklist.md` § Severity. Each fail gets steps to reproduce, expected
    vs actual, page, width and time. Findings from your own judgment of a page (not a measured rule)
    are marked **Hypothesis**.
-8. **Compare with last time.** Read the newest earlier findings file. Mark each earlier finding
+9. **Compare with last time.** Read the newest earlier findings file. Mark each earlier finding
    `fixed`, `still open` or `not re-checked`, and each new one `new`.
-9. **Write the findings file** from `report-template.md`: show the member the summary in chat and
+10. **Write the findings file** from `report-template.md`: show the member the summary in chat and
    say the file you'll write (`coworkers/karin/output/YYYY-MM-DD-site-test-<quick|full>.md`); write
    after a yes. Scheduled runs: the member's yes when they set up the schedule covers this file.
    Lead with what costs the business (broken lead flow, wrong answers, broken on phones), then the
-   developer detail, then what wasn't tested.
-10. **Hand back.** One line in chat: counts (new, fixed, still open), the worst finding, and the
+   developer detail, then what wasn't tested. Report **per test, then per element**: one section
+   per journey with an element table (expected, actual, status, evidence), as in the template.
+   Persona mode writes `YYYY-MM-DD-site-test-persona-<persona>.md`.
+11. **Hand back.** One line in chat: counts (new, fixed, still open), the worst finding, and the
     file. Never send the report anywhere; the member's team reads it in the shared Start folder.
 
 ## Done when
-Every journey and in-mode item has a status with evidence, every fail was retried, the findings
+Every journey, every element and channel in it, and every in-mode item has a status with
+evidence, the consistency table is filled (persona mode), every fail was retried, the findings
 file is written (or the member declined), and the member has the one-line summary.
 
 ## If it fails

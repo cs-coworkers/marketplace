@@ -28,7 +28,7 @@
       "name": "ekarin",
       "source": "./plugins/ekarin",
       "description": "Karin, your managed web-testing agent: tests your website's pages, tools and lead flow after every change, and writes what broke, where and how to reproduce it into your Start folder. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Karin once before first use. Needs a browser (Claude in Chrome). Preview. v0.1.0.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "displayName": "Karin"
     },
     {
