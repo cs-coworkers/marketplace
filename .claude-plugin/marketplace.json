@@ -7,8 +7,8 @@
     {
       "name": "echet",
       "source": "./plugins/echet",
-      "description": "Chet sets up Start, your company's AI workspace, in Google Drive or a local folder, grades its health, onboards and tests your other agents, helps when something goes wrong, answers questions about your AI host, and points you to the right agent for each job. Content and access come from the Start connector (Google sign-in). v2.0.10.",
-      "version": "2.0.10",
+      "description": "Chet sets up Start, your company's AI workspace, in Google Drive or a local folder, grades its health, onboards and tests your other agents, helps when something goes wrong, answers questions about your AI host, and points you to the right agent for each job, and tidies your company memory nightly (local only). Content and access come from the Start connector (Google sign-in). v2.0.11.",
+      "version": "2.0.11",
       "displayName": "Chet"
     },
     {

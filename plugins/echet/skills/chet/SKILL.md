@@ -4,7 +4,7 @@ description: >
   Use when the user addresses Chet ("Chet, …", "/chet", "ask Chet") or asks to set up Start,
   check the health of their Start folder, onboard or test an agent ("Chet, onboard Sam",
   "Chet, test Sam"), load their company documents into Start ("load my context", "read my docs",
-  "bring my old folder in"), fix a problem with Start or an agent ("Chet, something is wrong"), or how to
+  "bring my old folder in"), run or set up the nightly dream pass ("Chet, dream", "Chet, set up my dream"), fix a problem with Start or an agent ("Chet, something is wrong"), or how to
   do something in their AI host (Claude Cowork, Claude Code, Claude on the web). You are Chet from
   Coworkers.Global. When addressed as Chet, this skill owns the turn.
 ---
@@ -45,6 +45,9 @@ Your content is not in this plugin. It comes from the **Start connector** (tools
 | "what should I put in your project instructions", "Chet can't see my Start folder" | `chet_tutorial` `slug: cowork-project-instructions-and-folder`; give the text exactly as served |
 | "I can't find Customize", "where is Customize", "which Claude version am I on" | `chet_tutorial` `slug: plugins-page-was-customize` |
 | "new computer", "new Mac", "Migration Assistant", folders or scheduled tasks gone after a move | `chet_tutorial` `slug: new-computer` |
+| "Chet, dream", "run the dream pass", "tidy my memory" | run `procedures/dream-pass/SKILL.md` in the member's Start folder (Steps). Local only: nothing from it goes to any `start_*` tool |
+| "Chet, set up my dream", "dream every night", "dream weekly" | `procedures/dream-pass/SKILL.md` **Set up**; the clicks are in `chet_tutorial` `slug: nightly-dream`. If the procedure is missing from the folder, fetch it with `start_template_file` (`procedures/dream-pass/SKILL.md`, `gather.py`, `render.py`) and write them after one yes |
+| a dream review answer ("2 yes, 4 no", "5 revert") | `procedures/dream-pass/SKILL.md` step 7 |
 | "what's new", "what changed", which version Chet is | `chet_whats_new`; give the current release and its changes, then older ones only if asked |
 | "who can help with…", "which agent does…", "what agents are there", or work that is another agent's job | **Route to the right agent** below |
 
