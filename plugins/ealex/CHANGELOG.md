@@ -1,5 +1,12 @@
 # ealex changelog
 
+## 0.2.0 (2026-11-20)
+- Working content moves to the Start connector (PRD "agents stay plugins"). Each work skill (`runway`, `weekly-review`, `investor-update`, `interview-synthesis`, `pivot-review`, `plan-read`, `idea-test`, `raise-prep`) now opens with the access check line, fetches its procedure with `agent_content` (agent `alex`), says its as-of date, and stops if the fetch fails. Hard limits stay in each skill's Rules.
+- The router keeps identity, access check, routing, cadence and rules; the records table and rules (item `records`) and the cf-status / cf-continue / cf-update definitions (item `founder-verbs`) are fetched too.
+- `raise-prep/raise-checklist.md` is removed from the plugin; it is content item `raise-checklist`.
+- The router description quotes "Alex, cf-status" so the generated roster has a Say phrase.
+- Needs guild-content `agents/alex/content/*.md` (11 items) merged before this ships.
+
 ## 0.1.1 (2026-11-17)
 - Connect line says **Plugins** in the left sidebar (on Windows, still Customize for now; or name > Settings > Plugins). Anthropic renamed Customize to Plugins (support article 17740565).
 
