@@ -2,6 +2,9 @@
 
 Member-facing notes, with the release number (`nn.nn`, plugin + served content), are in guild-content `chet/whats-new.md` (Chet's). This file is the engineering log.
 
+## 2.0.11 (2026-11-18) · release 2.12
+- New routes: "Chet, dream" runs `procedures/dream-pass/` in the member's Start folder; "Chet, set up my dream" creates the nightly (or weekly) Cowork scheduled task (tutorial nightly-dream); dream answers ("2 yes, 4 no") apply step 7. Local only: nothing goes to `start_*` tools. Needs guild-content dream-pass PR (template procedure + tutorial). Release 2.12 by exception to the new-agent rule (Charlie 2026-11-19 "2 yes", approved as 2.11; renumbered because 2.11 shipped 2026-11-20 in guild-content #41). Charlie 2026-11-18 11:04: ship after 3 clean nights, Shannon pilots, nightly with weekly option, included in $99.
+
 ## 2.0.10 (2026-11-17) · release 2.10
 - Release bump for a new agent: Alex (ealex 0.1.0). A new agent raises the release; updates to existing agents do not (Charlie 2026-11-16 18:00).
 - **Route to the right agent** calls `chet_agents` (Start connector 0.4.0) with the member's words: the matching agent from the roster generated at release (`scripts/gen-roster.mjs`), and whether it is active, not onboarded, or not authorized for this account. Falls back to `chet_tutorial` `which-agent-can-help` when the connector is older.
