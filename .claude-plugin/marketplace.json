@@ -34,8 +34,8 @@
     {
       "name": "ealex",
       "source": "./plugins/ealex",
-      "description": "Alex, your managed startup cofounder agent: keeps your runway and default-alive date current, runs a weekly KPI and focus review, drafts your monthly investor update, synthesizes customer interviews, calls pivot or persevere on the evidence, and reads your plan or deck the way an investor will. Records live in your Start folder. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Alex once before first use. Preview. v0.1.0.",
-      "version": "0.1.1",
+      "description": "Alex, your managed startup cofounder agent: keeps your runway and default-alive date current, runs a weekly KPI and focus review, drafts your monthly investor update, synthesizes customer interviews, calls pivot or persevere on the evidence, and reads your plan or deck the way an investor will. Records live in your Start folder. Access through the Start connector (Google sign-in). Install Chet first: Chet onboards Alex once before first use. Preview. v0.2.0.",
+      "version": "0.2.0",
       "displayName": "Alex"
     }
   ],

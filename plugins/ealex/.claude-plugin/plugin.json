@@ -1,6 +1,6 @@
 {
   "name": "ealex",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Alex is your managed startup cofounder agent from Coworkers.Global: keeps your runway and default-alive date current, runs a weekly KPI and focus review, drafts your monthly investor update, synthesizes customer interviews against your premises, calls pivot or persevere on the evidence, and reads your plan or deck the way an investor will. Works from your Start folder; access comes from the Start connector (Google sign-in). Install Chet first: Chet onboards Alex once before first use. Preview.",
   "author": {
     "name": "Coworkers.Global"
