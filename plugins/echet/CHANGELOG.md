@@ -2,6 +2,9 @@
 
 Member-facing notes, with the release number (`nn.nn`, plugin + served content), are in guild-content `chet/whats-new.md` (Chet's). This file is the engineering log.
 
+## 2.0.12 (2026-11-24) · release unchanged (2.13)
+- Dream route checks the folder's dream-pass copy against the served template and offers once to update it, so members get dream v1.1 (repeated-failure fixes, stale sweep, prevalence on every item; guild-content PR). Charlie 2026-11-24 "2 yes" after the Anthropic dreaming-talk review. No release bump: update to an existing agent.
+
 ## 2.0.11 (2026-11-18) · release 2.12
 - New routes: "Chet, dream" runs `procedures/dream-pass/` in the member's Start folder; "Chet, set up my dream" creates the nightly (or weekly) Cowork scheduled task (tutorial nightly-dream); dream answers ("2 yes, 4 no") apply step 7. Local only: nothing goes to `start_*` tools. Needs guild-content dream-pass PR (template procedure + tutorial). Release 2.12 by exception to the new-agent rule (Charlie 2026-11-19 "2 yes", approved as 2.11; renumbered because 2.11 shipped 2026-11-20 in guild-content #41). Charlie 2026-11-18 11:04: ship after 3 clean nights, Shannon pilots, nightly with weekly option, included in $99.
 
