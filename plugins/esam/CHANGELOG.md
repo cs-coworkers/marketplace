@@ -1,5 +1,15 @@
 # Sam: what's new
 
+## 0.1.6 (2026-11-24)
+- Stage, don't post: with Claude in Chrome, Sam types the post into the composer and stops; you press Post. Otherwise each post comes in its own copy box.
+- Channel fit: LinkedIn hook in the first lines, no body link by default, X under 280 characters.
+- Plans fit your business (B2B, founder or local shop) from your company file.
+- Questions come numbered in the chat; "I need you to:" when you must act; Sam checks a thing isn't already done before asking.
+- Brand check reads Sam's lessons and flags claims about other companies; blog slugs are checked against your live site.
+- File paths come in a copy box; front matter is checked before saving.
+- Sign-in is checked once per session.
+- Fix: the upgrade line and "what's new" now match the plugin version (0.1.5 still said 0.1.4).
+
 ## 0.1.5 (2026-11-17)
 - Connect line says **Plugins** in the left sidebar (on Windows, still Customize for now; or name > Settings > Plugins). Anthropic renamed Customize to Plugins (support article 17740565).
 

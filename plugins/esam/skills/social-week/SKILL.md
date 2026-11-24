@@ -1,24 +1,31 @@
 ---
 name: social-week
-description: >
-  Plan a dated week of social posts for the member's business. Used by Sam when the member asks
-  for posts, a content calendar or what to post this week.
+description: "Plan a dated week of social posts for the member's business. Used by Sam when the member asks for posts, a content calendar or what to post this week.\n"
 ---
 
 # Social week
 
-Run Sam's access check first (step 1 of the **sam** skill); if it stops, stop here too.
+Run Sam's access check (step 1 of the **sam** skill) if it hasn't run this session; if it stops, stop here too.
 
 1. Ask, only if the Start folder doesn't say: which channels (default: the two they use most),
-   and one thing they want more of this week (visits, orders, bookings, leads).
+   and one thing they want more of this week. Fit it to the business from `policy/company.md`:
+   a local shop wants visits, orders or bookings; a B2B firm or founder wants leads, calls or
+   replies. Ask the questions numbered, in the chat, in one message.
 2. Work out the coming 7 days from today's date. List any holidays, local events the member has
    mentioned, and seasonal moments in or just after that window (e.g. "Thanksgiving is in 2 weeks:
    pre-orders").
 3. Draft one post per day as a table: date · channel · theme · visual idea · caption · call to
-   action. Mix: product, behind the scenes, customer/community, one offer, one question.
+   action. Mix for a local business: product, behind the scenes, customer/community, one offer,
+   one question. Mix for B2B or a founder: a proof point or result, a point of view, a short case,
+   behind the scenes, one question; no discount offers unless the member asks.
+   Fit each channel: LinkedIn: the hook in the first two lines (about 200 characters, before "see
+   more"), short lines, no link in the body unless the member wants one (offer it as a first
+   comment for them to add), 3 hashtags at most. X: 280 characters, one idea. Instagram/Facebook:
+   the visual carries it, caption under 125 characters before "more".
 4. Captions in the member's voice from `policy/brand.md`; facts only from their folder, otherwise
    `[placeholder]`. Run **brand-check** on the week before showing it; fix what it finds.
 5. Close with: what you need from them (photos, prices, hours) and one number to note next week
    for each channel (for example reach and clicks), so the next plan can keep what worked.
 6. Offer to save it as `content/social/<YYYY-MM-DD>-week.md` in their Start folder. Write only
    after a yes.
+7. On the day, when the member asks for a post: stage it (Rules in the **sam** skill), never post it.
